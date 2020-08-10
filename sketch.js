@@ -20,8 +20,8 @@ function setup() {
 
 	ground=new Ground(400,690,800,20);
 	paper= new Paper(200,400);
-	box1= new Dustbin(660,560,200,220);
-	box2= Bodies.rectangle(570,590,20,240,{isStatic:true});
+	box1= new Dustbin(660,580,200,220);
+	box2= Bodies.rectangle(570,570,20,240,{isStatic:true});
 	World.add(world,box2);
 	box3= Bodies.rectangle(750,570,20,210,{isStatic:true});
 	World.add(world,box3);

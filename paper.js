@@ -18,7 +18,7 @@ class Paper{
         //rotate(this.body.angle);
         fill(255);
         imageMode(CENTER);
-        image(this.image,pos.x,pos.y,70,70);
+        image(this.image,0,0,70,70);
         pop();
     }
 }
